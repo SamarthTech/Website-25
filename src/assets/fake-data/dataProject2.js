@@ -1,18 +1,18 @@
-import img1 from '../images/sponsor/geo ias.webp';
-import img2 from '../images/sponsor/rice.webp';
-import img3 from '../images/sponsor/intrainz.webp';
-import img4 from '../images/sponsor/time.webp';
-import img5 from '../images/sponsor/kwikpic.webp';
-import img6 from '../images/sponsor/rapido.webp';
-import img7 from '../images/sponsor/mojs.webp';
-import img8 from '../images/sponsor/lwt.webp';
-import img9 from '../images/sponsor/r2r.webp';
-import img10 from '../images/sponsor/vr.webp';
-import img11 from '../images/sponsor/kA.webp';
-import img12 from '../images/sponsor/sconto.webp';
-import img13 from '../images/sponsor/vip.webp';
-import img14 from '../images/sponsor/winni.webp';
-import img15 from '../images/sponsor/91.9.webp';
+import img1 from '/images2/sponsor/geo ias.webp';
+import img2 from '/images2/sponsor/rice.webp';
+import img3 from '/images2/sponsor/intrainz.webp';
+import img4 from '/images2/sponsor/time.webp';
+import img5 from '/images2/sponsor/kwikpic.webp';
+import img6 from '/images2/sponsor/rapido.webp';
+import img7 from '/images2/sponsor/mojs.webp';
+import img8 from '/images2/sponsor/lwt.webp';
+import img9 from '/images2/sponsor/r2r.webp';
+import img10 from '/images2/sponsor/vr.webp';
+import img11 from '/images2/sponsor/kA.webp';
+import img12 from '/images2/sponsor/sconto.webp';
+import img13 from '/images2/sponsor/vip.webp';
+import img14 from '/images2/sponsor/winni.webp';
+import img15 from '/images2/sponsor/91.9.webp';
 
 
 

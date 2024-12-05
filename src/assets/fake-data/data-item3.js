@@ -1,7 +1,7 @@
-import img1 from '../images/events/INTRODUCTION TO SAMARTH.webp';
-import img2 from '../images/events/CLASH OF CREATIVITY.webp';
+import img1 from '/images2/events/INTRODUCTION TO SAMARTH.webp';
+import img2 from '/images2/events/CLASH OF CREATIVITY.webp';
 
-import img3 from '../images/events/Show case your talent.webp';
+import img3 from '/images2/events/Show case your talent.webp';
 
 
 

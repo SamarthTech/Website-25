@@ -6,7 +6,7 @@ import 'swiper/scss/navigation';
 import 'swiper/scss/pagination';
 import { Link } from 'react-router-dom';
 
-import line from '../../assets/images/background/line-2.webp';
+import line from '/images2/background/line-2.webp';
 // import newGitHubIcon from '../../assets/images/new/github.webp';
 // import newLinkedInIcon from '../../assets/images/new/linkdln.webp';
 

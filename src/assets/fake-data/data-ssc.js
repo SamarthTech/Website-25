@@ -1,8 +1,8 @@
 
-import img1 from '../images/svg/icon-1.svg'
-import img2 from '../images/svg/icon-2.svg'
-import img3 from '../images/svg/icon-3.svg'
-import img4 from '../images/svg/icon-4.svg'
+import img1 from '/images2/svg/icon-1.svg'
+import img2 from '/images2/svg/icon-2.svg'
+import img3 from '/images2/svg/icon-3.svg'
+import img4 from '/images2/svg/icon-4.svg'
 
 
 

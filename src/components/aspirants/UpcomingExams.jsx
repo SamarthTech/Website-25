@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react";
 import PropTypes from "prop-types";
-import img from "../../assets/images/background/reddot.webp";
+import img from "/images2/background/reddot.webp";
 
 UpcomingExams.propTypes = {
   data: PropTypes.array,

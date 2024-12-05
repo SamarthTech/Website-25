@@ -1,8 +1,8 @@
-import img1 from '../images/Team/shinjan.webp'
-import img2 from '../images/Team/RaviRanjan.webp'
-import img3 from '../images/Team/satyakidey.webp'
-import img4 from '../images/Team/sonika.webp'
-import img5 from '../images/Team/sg.webp'
+const img1 = '/images/Team/shinjan.webp'
+const img2 = '/images/Team/RaviRanjan.webp'
+const img3 = '/images/Team/satyakidey.webp'
+const img4 = '/images/Team/sonika.webp'
+const img5 = '/images/Team/sg.webp'
 
 const dataTeam4 = [
 

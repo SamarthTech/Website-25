@@ -1,10 +1,10 @@
 import React , {useState} from 'react';
 
-import img1 from '../../assets/images/new/pravidhi.webp';
-import img2 from '../../assets/images/layouts/about-02.webp'
-import img3 from '../../assets/images/layouts/about-03.webp'
-import img4 from '../../assets/images/layouts/about-04.webp'
-import img5 from '../../assets/images/layouts/about-05.webp'
+import img1 from '/images2/new/pravidhi.webp';
+import img2 from '/images2/layouts/about-02.webp'
+import img3 from '/images2/layouts/about-03.webp'
+import img4 from '/images2/layouts/about-04.webp'
+import img5 from '/images2/layouts/about-05.webp'
 import Button from '../button/Button';
 
 

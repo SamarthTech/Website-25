@@ -1,14 +1,14 @@
 
-import img1 from '../images/new/card1.webp'
-import img2 from '../images/new/card02.gif'
-import img3 from '../images/new/card6.webp'
-import img4 from '../images/new/card3.webp'
-import img5 from '../images/new/card5.webp'
-import img6 from '../images/new/card7.webp'
-import img7 from '../images/new/card8.webp'
+const img1 = '/images2/new/card1.webp'
+const img2 = 'images2/new/card02.gif'
+const img3 = '/images2/new/card6.webp'
+const img4 = '/images2/new/card3.webp'
+const img5 = '/images2/new/card5.webp'
+const img6 = '/images2/new/card7.webp'
+const img7 = '/images2/new/card8.webp'
 
 
-import logo from '../images/new/newlogo.webp'
+const logo = '/images2/new/newlogo.webp'
 
 
 

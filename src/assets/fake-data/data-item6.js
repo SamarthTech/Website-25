@@ -1,6 +1,6 @@
-import img1 from '../images/events/COMING SOON.webp';
-import img2 from '../images/events/Tech selection.webp';
-import img3 from '../images/events/Poster & video Contest.webp';
+import img1 from '/images2/events/COMING SOON.webp';
+import img2 from '/images2/events/Tech selection.webp';
+import img3 from '/images2/events/Poster & video Contest.webp';
 // import img4 from '../images/events/Photography contest.webp';
 // import img5 from '../images/events/Content writing.webp';
 // import img6 from '../images/events/COC Combine.webp';

@@ -2,7 +2,7 @@ import React , {useState} from 'react';
 import PropTypes from 'prop-types';
 import Button from '../button/Button';
 
-import img from '../../assets/images/background/line.webp'
+import img from '/images2/background/line.webp'
 
 Cat.propTypes = {
     data: PropTypes.array

@@ -1,6 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import logo from '../../assets/images/new/whitelogo.webp';
+import logo from '/images2/new/whitelogo.webp';
 import './styles.scss';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faLocationDot, faPhone, faEnvelopeOpen } from '@fortawesome/free-solid-svg-icons'

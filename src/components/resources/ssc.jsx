@@ -4,7 +4,7 @@ import Button from '../button/Button';
 
 import { Swiper, SwiperSlide } from 'swiper/react';
 import { Autoplay, Pagination, Navigation } from "swiper";
-import img from '../../assets/images/background/line.webp'
+import img from '/images2/background/line.webp'
 
 SSC_CGL.propTypes = {
     data: PropTypes.array

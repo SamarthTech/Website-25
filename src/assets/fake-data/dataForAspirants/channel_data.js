@@ -1,9 +1,9 @@
-import img1 from '../../images/ForAspirants/channel-dp/pw.webp'
-import img2 from '../../images/ForAspirants/channel-dp/rahul_catking.webp' 
-import img3 from '../../images/ForAspirants/channel-dp/tathastu.webp' 
-import img4 from '../../images/ForAspirants/channel-dp/dristi_vision.webp' 
-import img5 from '../../images/ForAspirants/channel-dp/gate_smashers.webp' 
-import img6 from '../../images/ForAspirants/channel-dp/insights_ias.webp' 
+import img1 from '/images2/ForAspirants/channel-dp/pw.webp'
+import img2 from '/images2/ForAspirants/channel-dp/rahul_catking.webp' 
+import img3 from '/images2/ForAspirants/channel-dp/tathastu.webp' 
+import img4 from '/images2/ForAspirants/channel-dp/dristi_vision.webp' 
+import img5 from '/images2/ForAspirants/channel-dp/gate_smashers.webp' 
+import img6 from '/images2/ForAspirants/channel-dp/insights_ias.webp' 
 
 const channel_data = [
 

@@ -6,7 +6,7 @@ import 'swiper/scss/navigation';
 import 'swiper/scss/pagination';
 import { Link } from 'react-router-dom';
 
-import line from '../../assets/images/background/line-2.webp';
+import line from '/images2/background/line-2.webp';
 
 Team2.propTypes = {
   data: PropTypes.array,

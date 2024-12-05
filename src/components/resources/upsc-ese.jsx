@@ -1,11 +1,11 @@
-import img1 from '../../assets/images/resc/TABLE1.webp';
-import img2 from '../../assets/images/resc/TABLE2.webp';
+import img1 from '/images2/resc/TABLE1.webp';
+import img2 from '/images2/resc/TABLE2.webp';
 import React , {useState} from 'react';
 import PropTypes from 'prop-types';
 import Button from '../button/Button';
 import '../resources/style.scss'
 
-import img from '../../assets/images/background/line.webp'
+import img from '/images2/background/line.webp'
 
 UPSC_ESE.propTypes = {
     data: PropTypes.array
