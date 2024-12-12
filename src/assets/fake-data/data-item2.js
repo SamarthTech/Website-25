@@ -1,7 +1,7 @@
-import img1 from '../images/events/TITANS OF SITUTATION.webp';
-import img2 from '../images/events/KNOW YOUR HOLD.webp';
-import img3 from '../images/events/enthusia.webp';
-import img4 from '../images/events/independence.webp';
+import img1 from '/images2/events/TITANS OF SITUTATION.webp';
+import img2 from '/images2/events/KNOW YOUR HOLD.webp';
+import img3 from '/images2/events/enthusia.webp';
+import img4 from '/images2/events/independence.webp';
 
 
 

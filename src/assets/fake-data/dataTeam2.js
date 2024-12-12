@@ -1,23 +1,23 @@
 //Heads-new 2024
 
 
-import img1 from '../images/dataTeam2/img1.webp'
-import img2 from '../images/dataTeam2/img2.webp'
-import img3 from '../images/dataTeam2/img3.webp'
-import img4 from '../images/dataTeam2/img4.webp'
-import img5 from '../images/dataTeam2/img5.webp'
-import img6 from '../images/dataTeam2/img6.webp'
-import img7 from '../images/dataTeam2/img7.webp'
-import img8 from '../images/dataTeam2/img8.webp'
-import img9 from '../images/dataTeam2/img9.webp'
-import img10 from '../images/dataTeam2/img10.webp'
-import img11 from '../images/dataTeam2/img11.webp'
-import img12 from '../images/dataTeam2/img12.webp'
-import img13 from '../images/dataTeam2/img13.webp'
-import img14 from '../images/dataTeam2/img14.webp'
-import img15 from '../images/dataTeam2/img15.webp'
-import img16 from '../images/dataTeam2/img16.webp'
-import img17 from '../images/dataTeam2/img17.webp'
+const img1 = '/images2/dataTeam2/img1.webp'
+const img2 = '/images2/dataTeam2/img2.webp'
+const img3 = '/images2/dataTeam2/img3.webp'
+const img4 = '/images2/dataTeam2/img4.webp'
+const img5 = '/images2/dataTeam2/img5.webp'
+const img6 = '/images2/dataTeam2/img6.webp'
+const img7 = '/images2/dataTeam2/img7.webp'
+const img8 = '/images2/dataTeam2/img8.webp'
+const img9 = '/images2/dataTeam2/img9.webp'
+const img10 = '/images2/dataTeam2/img10.webp'
+const img11 = '/images2/dataTeam2/img11.webp'
+const img12 = '/images2/dataTeam2/img12.webp'
+const img13 = '/images2/dataTeam2/img13.webp'
+const img14 = '/images2/dataTeam2/img14.webp'
+const img15 = '/images2/dataTeam2/img15.webp'
+const img16 = '/images2/dataTeam2/img16.webp'
+const img17 = '/images2/dataTeam2/img17.webp'
 
 const dataTeam3 = [
     {
@@ -193,24 +193,24 @@ const dataTeam3 = [
 
     // ///old
 
-// // import img1 from '../images/Team/Meghadri Koley.webp';
-// // import img2 from '../images/Team/Nikhil Sukhla.webp';
-// // import img3 from '../images/Team/Abhishek Gupta.webp';
-// // import img4 from '../images/Team/Amrit Raj.webp';
-// // import img5 from '../images/Team/Srijita Garai.webp';
-// // import img6 from '../images/Team/Saptarshi.webp';
-// // import img7 from '../images/Team/Soumojit Ghatak.webp';
-// // import img8 from '../images/Team/SONU SUMAN.webp';
-// // import img9 from '../images/Team/Chirosree Roy.webp';
-// // import img10 from '../images/Team/Govind Kumar.webp';
-// // import img11 from '../images/Team/Chandan Singh.webp';
-// // import img13 from '../images/Team/Komal Kumari.webp';
-// // import img14 from '../images/Team/SHIBHAM KAR.webp';
-// // import img15 from '../images/Team/Utsav Nayan.webp';
-// // import img16 from '../images/Team/Dipjyoti Dutta.webp';
-// // import img17 from '../images/Team/Astitwa Kumar.webp';
-// // import img18 from '../images/Team/pranay.webp';
-// // import img19 from '../images/Team/Keya.webp';
+// // const img1 = '../images/Team/Meghadri Koley.webp';
+// // const img2 = '../images/Team/Nikhil Sukhla.webp';
+// // const img3 = '../images/Team/Abhishek Gupta.webp';
+// // const img4 = '../images/Team/Amrit Raj.webp';
+// // const img5 = '../images/Team/Srijita Garai.webp';
+// // const img6 = '../images/Team/Saptarshi.webp';
+// // const img7 = '../images/Team/Soumojit Ghatak.webp';
+// // const img8 = '../images/Team/SONU SUMAN.webp';
+// // const img9 = '../images/Team/Chirosree Roy.webp';
+// // const img10 = '../images/Team/Govind Kumar.webp';
+// // const img11 = '../images/Team/Chandan Singh.webp';
+// // const img13 = '../images/Team/Komal Kumari.webp';
+// // const img14 = '../images/Team/SHIBHAM KAR.webp';
+// // const img15 = '../images/Team/Utsav Nayan.webp';
+// // const img16 = '../images/Team/Dipjyoti Dutta.webp';
+// // const img17 = '../images/Team/Astitwa Kumar.webp';
+// // const img18 = '../images/Team/pranay.webp';
+// // const img19 = '../images/Team/Keya.webp';
 
  
 // const dataTeam2 = [

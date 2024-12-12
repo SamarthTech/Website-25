@@ -1,11 +1,11 @@
 import React, { useState } from 'react';
 import './resc.css';
-import CODE from '../assets/images/resc/code1.webp'
-import CODE2 from '../assets/images/resc/code1 (1).webp'
-import ssceng from '../assets/images/resc/ssc-eng.webp';
-import sscmath from '../assets/images/resc/ssc-math.webp';
-import sscreas from '../assets/images/resc/ssc-reas.webp';
-import sscgen from '../assets/images/resc/ssc-gen.webp';
+// import CODE from 'images2/resc/code1.webp'
+// import CODE2 from '/images2/resc/code1 (1).webp'
+// import ssceng from '/images2/resc/ssc-eng.webp';
+// import sscmath from '/images2/resc/ssc-math.webp';
+// import sscreas from '/images2/resc/ssc-reas.webp';
+// import sscgen from '/images2/resc/ssc-gen.webp';
 import dataGate from '../assets/fake-data/data-gate';
 import dataGate2 from '../assets/fake-data/data-gate-02';
 import dataSSC from '../assets/fake-data/data-ssc';

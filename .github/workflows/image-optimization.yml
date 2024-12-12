@@ -29,7 +29,7 @@ jobs:
           -not -path "*/.github/*" \
           -not -path "*/dist/*" \
           -not -path "*/build/*" \
-          -not -path "*/src/assets/images/new/guest*" \
+          -not -path "*/public/images2/new/guest*" \
           -exec sh -c '
             for file do
               webp_path="${file%.*}.webp"
@@ -55,7 +55,7 @@ jobs:
             .github/**
             **/dist/**
             **/build/**
-            **/src/assets/images/new/guest**
+            **/public/images2/new/guest**
 
       - name: Commit and Push Changes
         run: |

@@ -3897,7 +3897,7 @@ body[data-magic-cursor=hide] .mouse-cursor {
   border-radius: 12px;
   outline: none;
   -webkit-appearance: none;
-  background: url("./../../assets/images/icon/arrow-down.webp") var(--bg1) no-repeat 73% !important;
+  background: url("/images2/icon/arrow-down.webp") var(--bg1) no-repeat 73% !important;
   background: var(--bg1);
 }
 .wallet .wallet-main .wallet-body .right form button {

@@ -1,6 +1,6 @@
 import React from 'react';
 import PageTitle from '../components/pagetitle/PageTitle';
-import img from '../assets/images/new/violetlogo.webp'
+import img from '/images2/new/violetlogo.webp'
 
 function Contact(props) {
     const imageWidth = '380px';
