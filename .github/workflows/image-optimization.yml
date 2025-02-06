@@ -14,39 +14,42 @@ permissions:
 jobs:
   optimize-and-convert:
     runs-on: ubuntu-latest
-    
+
     steps:
       - name: Checkout repository
         uses: actions/checkout@v3
         with:
           ref: ${{ github.head_ref }}
           fetch-depth: 0
-          
-      - name: Install WebP Tools
-        run: sudo apt-get update && sudo apt-get install webp -y
-        
-      - name: Convert Images to WebP and Remove Originals
+
+      - name: Cache WebP Installation
+        uses: actions/cache@v3
+        with:
+          path: /usr/bin/cwebp
+          key: webp-cache-${{ runner.os }}
+
+      - name: Install WebP Tools (if not cached)
         run: |
-          find . -type f \( -iname "*.jpg" -o -iname "*.jpeg" -o -iname "*.png" \) \
+          if ! command -v cwebp &> /dev/null; then
+            sudo apt-get update && sudo apt-get install webp imagemagick -y
+          fi
+
+      - name: Convert Images to WebP in Parallel
+        run: |
+          find . -type f \( -iname "*.jpg" -o -iname "*.jpeg" -o -iname "*.png" -o -iname "*.gif" -o -iname "*.bmp" \) \
           -not -path "*/node_modules/*" \
           -not -path "*/.github/*" \
           -not -path "*/dist/*" \
           -not -path "*/build/*" \
-          -not -path "*/public/images2/new/guest*" \
-          -exec sh -c '
-            for file do
-              webp_path="${file%.*}.webp"
-              if [ ! -f "$webp_path" ]; then
-                if cwebp -q 60 "$file" -o "$webp_path"; then
-                  echo "Converted $file to $webp_path"
-                  rm "$file"
-                  echo "Removed original file: $file"
-                else
-                  echo "Failed to convert $file"
-                fi
+          -not -path "*/public/images2/new/guest*" | xargs -P $(nproc) -I {} sh -c '
+            webp_path="${1%.*}.webp"
+            if [ ! -f "$webp_path" ]; then
+              if cwebp -q 60 "$1" -o "$webp_path"; then
+                echo "Converted $1 to $webp_path"
+              else
+                echo "Failed to convert $1" | tee -a error.log
               fi
-            done
-          ' sh {} +
+            fi' sh {}
 
       - name: Optimize WebP Images
         uses: calibreapp/image-actions@main
@@ -60,6 +63,18 @@ jobs:
             **/build/**
             **/public/images2/new/guest**
 
+      - name: Quality Control Check
+        run: |
+          find . -type f -iname "*.webp" | while read -r file; do
+            if ! identify "$file" &> /dev/null; then
+              echo "Invalid WebP file detected: $file" | tee -a error.log
+            fi
+          done
+
+      - name: Error Reporting
+        if: failure()
+        run: cat error.log || echo "No errors detected."
+
       - name: Commit and Push Changes
         run: |
           git config --local user.email "github-actions[bot]@users.noreply.github.com"
@@ -72,6 +87,6 @@ jobs:
             exit 0
           fi
           
-          git commit -m "Convert images to WebP and remove original files"
+          git commit -m "Optimized images and converted to WebP"
           git pull --rebase origin ${{ github.head_ref }}
           git push origin HEAD:${{ github.head_ref }}
