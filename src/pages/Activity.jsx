@@ -34,6 +34,7 @@ function Activity(props) {
             desc1: 'Team Samarth is excited to continue our journey as a proud Community Partner at Apertre 2.0 🌟, one of the most vibrant open-source gatherings in India.',
             desc2: ''
         },
+        
         {
             id: 13,
             img: img13,
