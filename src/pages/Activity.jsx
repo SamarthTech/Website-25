@@ -12,6 +12,8 @@ import img9 from '/images2/new/hack23__.webp'
 import img10 from '/images2/new/hack24.webp'
 import img11 from '/images2/new/SIT_card.webp'
 import img12 from '/images2/new/GCCD25_card.webp'
+import img13 from '/images2/new/h4b.webp'
+import img14 from '/images2/new/aprtr2.webp'
 
 
 
@@ -24,22 +26,41 @@ function Activity(props) {
 
     const dataBlock = [
         {
+            id: 14,
+            img: img14,
+            class: 'img1',
+            subheading: 'APERTRE 2.0',
+            heading: 'Apertre 2.0: Celebrating the Power of Open Source',
+            desc1: 'Team Samarth is excited to continue our journey as a proud Community Partner at Apertre 2.0 🌟, one of the most vibrant open-source gatherings in India.',
+            desc2: ''
+        },
+        {
+            id: 13,
+            img: img13,
+            class: 'img1',
+            subheading: 'HACK4BENGAL 2025',
+            heading: 'HACK4BENGAL 2025: Igniting Innovation in the East',
+            desc1: 'Team Samarth is thrilled to announce our partnership with Hack4Bengal 2025 🚀, the grandest hackathon of Eastern India, where creativity meets cutting-edge tech.',
+            desc2: ''
+        },
+
+        {
             id: 12,
-            img : img12,
-            class:'img1',
+            img: img12,
+            class: 'img1',
             subheading: 'GCCD KOLKATA 2025',
             heading: 'Google Cloud Community Days Kolkata 2025',
-            desc1: '' ,
-            desc2 :'Team Samarth proudly announces that we are now the Official Community Partner of the biggest and most-awaited Tech conference, the GCCD Kolkata 2025 ',
+            desc1: '',
+            desc2: 'Team Samarth proudly announces that we are now the Official Community Partner of the biggest and most-awaited Tech conference, the GCCD Kolkata 2025 ',
         },
         {
             id: 11,
-            img : img11,
-            class:'img1',
+            img: img11,
+            class: 'img1',
             subheading: 'SIT KOLKATA 2025',
             heading: 'Sap Inside Track Kolkata 2025',
-            desc1: '' ,
-            desc2 :'Team Samarth proudly announces that we are now the Official Community Partner at SAP Inside Track Kolkata 2025 ',
+            desc1: '',
+            desc2: 'Team Samarth proudly announces that we are now the Official Community Partner at SAP Inside Track Kolkata 2025 ',
         },
         {
             id: 10,
