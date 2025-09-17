@@ -17,10 +17,7 @@ import Portfolio3 from "../components/eventhead/event3";
 import Project5 from "../components/project/Project5";
 import dataItem3 from "../assets/fake-data/data-item3";
 
-import Portfolio4 from "../components/eventhead/event5";
-
 import Project8 from "../components/project/Project8";
-import dataItem5 from "../assets/fake-data/data-item5";
 
 import Portfolio6 from '../components/eventhead/PastEvent';
 import dataOfPast from '../assets/fake-data/data-past';
@@ -40,11 +37,6 @@ function Events(props) {
             {/* Live Events */}
             <Portfolio7/> 
             <Project8 data={dataItem6} />
-
-
-            {/* Safalya'24 */}
-            <Portfolio4/> 
-            <Project3 data={dataItem5} />
             
             {/* Past Events */}
             <Portfolio6></Portfolio6>
