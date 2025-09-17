@@ -48,7 +48,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  margin-bottom: 2rem;
+  margin-bottom: 1rem;
 
   video {
     width: 100%;
@@ -67,7 +67,7 @@
   font-size: 20px;
   font-weight: 800;
   font-family: 'Poppins', sans-serif;
-  margin-top: 35px;
+  margin-top: -20px;
 
   @include mobile {
     margin: 0 auto;
@@ -438,3 +438,43 @@
   margin-left: 165px;
 }
 
+/* ++ ADD THIS CODE FOR MOBILE FOOTER FIX ++ */
+
+@media (max-width: 768px) {
+  .single-cta {
+    display: flex;         /* 1. Use Flexbox for alignment */
+    align-items: center;   /* 2. Vertically center the icon with the text */
+    justify-content: flex-start; /* 3. Align the content to the left */
+    margin-bottom: 30px;   /* 4. Add some space between each block */
+  }
+
+  /* Target all icons in the top section of the footer */
+  .single-cta i,
+  .single-cta a[target="blank"] i {
+    margin: 0;             /* Reset the old centering margin */
+    margin-right: 15px;    /* Create space to the right of the icon */
+    float: none;           /* Disable the old float property */
+    font-size: 25px;       /* A consistent icon size */
+  }
+
+  /* This is the container for the heading and the text */
+  .cta-text,
+  .cta-text1,
+  .cta-text2 {
+    text-align: left;      /* Align the text to the left */
+  }
+
+  /* Reset all the problematic margins on the text itself */
+  .cta-text1 h4, .cta-text h4, .cta-text2 h4,
+  .cta-text1 span, .cta-text span, .cta-text2 span,
+  .cta-text2 p {
+    margin-left: 0;        /* IMPORTANT: Removes the old fixed margins */
+  }
+
+  /* A specific fix for the "Find Us" section which was pushed too far */
+  .cta-text1 {
+    @include tablet {
+      margin-left: 0;
+    }
+  }
+}

@@ -4,7 +4,7 @@ import logo from '/images2/new/whitelogo.webp';
 import './styles.scss';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faLocationDot, faPhone, faEnvelopeOpen } from '@fortawesome/free-solid-svg-icons'
-import { faInstagram, faTwitter, faFacebookF, faLinkedin } from '@fortawesome/free-brands-svg-icons';
+import { faInstagram, faXTwitter, faFacebookF, faLinkedin } from '@fortawesome/free-brands-svg-icons';
 
 // Specify all properties: name, family, style
 
@@ -57,7 +57,7 @@ function Footer(props) {
                     </div>
                 </div>
                 <hr class="hr-line"></hr>
-                <div class="footer-content pt-3 pb-3">
+                <div class="footer-content pt-1 pb-2">
                     <div class="row">
                         <div class="col-xl-12 col-lg-4 ">
                             <div class="footer-widget">
@@ -76,8 +76,8 @@ function Footer(props) {
                                     <span className='d-flex justify-content-center'>Follow us</span>
                                     <div class="d-flex justify-content-center">
                                         <a href="https://m.facebook.com/SamarthTMSL?fref=nf&refid=52&__tn__=%7E-R" target="blank"><i><FontAwesomeIcon icon={faFacebookF} /></i></a>
-                                        <a href="https://twitter.com/SamarthTmsl" target="blank"><i><FontAwesomeIcon icon={faTwitter} /></i></a>
-                                        <a href="https://www.instagram.com/samarth_tmsl_official/" target="blank"><i><FontAwesomeIcon icon={faInstagram} /></i></a>
+                                        <a href="https://twitter.com/SamarthTmsl" target="blank"><i><FontAwesomeIcon icon={faXTwitter} /></i></a>
+                                        <a href="https://www.instagram.com/samarth_tmsl/" target="blank"><i><FontAwesomeIcon icon={faInstagram} /></i></a>
                                         <a href="https://www.linkedin.com/company/samarthtmsl/" target="blank"><i><FontAwesomeIcon icon={faLinkedin} /></i></a>
                                     </div>
                                 </div>
