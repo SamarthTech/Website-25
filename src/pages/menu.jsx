@@ -24,12 +24,12 @@ const menus = [
         name: 'Wings',
         links: '/About',
     },
-    // {
-    //     id: 8,
-    //     name: 'Events',
-    //     external: 'https://event.ritaban.me/',
-    //     // isNew: true,
-    // },
+    {
+        id: 8,
+        name: 'Events',
+        links: '/Events',
+        // isNew: true,
+    },
     {
         id: 3,
         name: 'Explore',

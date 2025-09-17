@@ -10,6 +10,12 @@ import img10 from '/images2/events/PHOTOGRAPHY-24.webp';
 import img11 from '/images2/events/TOS-24.webp';
 import img12 from '/images2/events/demystifying_seminar.webp';
 import img13 from '/images2/events/personal_interview.webp';
+import safalyaImg1 from '/images2/events/instant_ink.webp';
+import safalyaImg2 from '/images2/events/MATRiX OF MOCK 1080 (1).webp';
+import safalyaImg3 from '/images2/events/1080 Apti new.webp';
+import safalyaImg4 from '/images2/events/shot a vid (2).webp';
+import safalyaImg5 from '/images2/events/INNOVATHON final (5).webp';
+import safalyaImg6 from '/images2/events/package.webp';
 
 const dataOfPast = [
   {
@@ -95,7 +101,48 @@ const dataOfPast = [
     title: 'TITANS OF SITUATION',
     ownedBy: 'Samarth',
     link: 'https://forms.gle/2uRZubSXKhGw8YpM8', 
-  },  
-
+  },
+  {
+    id: 13,
+    img: safalyaImg1,
+    title: 'INSTANT INK',
+    ownedBy: 'Samarth',
+    link: 'https://docs.google.com/forms/d/e/1FAIpQLSdq0-7nMvIWw8Ql5UN_TK4qA9ldWyCeLqDaKUGJ02t_kkF3Jg/viewform',
+  },
+  {
+    id: 14,
+    img: safalyaImg3,
+    title: 'APTI ACUMEN',
+    ownedBy: 'Samarth',
+    link: 'https://docs.google.com/forms/d/e/1FAIpQLSdq0-7nMvIWw8Ql5UN_TK4qA9ldWyCeLqDaKUGJ02t_kkF3Jg/viewform',
+  },
+  {
+    id: 15,
+    img: safalyaImg2,
+    title: 'MATRIX OF MOCK',
+    ownedBy: 'Samarth',
+    link: 'https://docs.google.com/forms/d/e/1FAIpQLSdq0-7nMvIWw8Ql5UN_TK4qA9ldWyCeLqDaKUGJ02t_kkF3Jg/viewform',
+  },
+  {
+    id: 16,
+    img: safalyaImg4,
+    title: 'THOUGHTS IN SHORTS',
+    ownedBy: 'Samarth',
+    link: 'https://docs.google.com/forms/d/e/1FAIpQLSdq0-7nMvIWw8Ql5UN_TK4qA9ldWyCeLqDaKUGJ02t_kkF3Jg/viewform',
+  },
+  {
+    id: 17,
+    img: safalyaImg5,
+    title: 'INNOVATE-A-THON',
+    ownedBy: 'Samarth',
+    link: 'https://docs.google.com/forms/d/e/1FAIpQLSdq0-7nMvIWw8Ql5UN_TK4qA9ldWyCeLqDaKUGJ02t_kkF3Jg/viewform',
+  },
+  {
+    id: 18,
+    img: safalyaImg6,
+    title: 'PACKAGE OFFER-ALL EVENTS',
+    ownedBy: 'Samarth',
+    link: 'https://docs.google.com/forms/d/e/1FAIpQLSdq0-7nMvIWw8Ql5UN_TK4qA9ldWyCeLqDaKUGJ02t_kkF3Jg/viewform',
+  }
 ];
 export default dataOfPast;
