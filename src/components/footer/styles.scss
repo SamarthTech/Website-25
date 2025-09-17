@@ -21,7 +21,7 @@
   height: auto;
 
   @include mobile {
-   margin: 0 auto;
+    margin: 0 auto;
   }
 
   @include tablet {
@@ -42,6 +42,23 @@
   transition: width 2s, height 4s;
   color: aliceblue;
 
+}
+
+.footer-video-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 2rem;
+
+  video {
+    width: 100%;
+    max-width: 450px;
+    height: auto;
+    border-radius: 12px; 
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.25); 
+    mix-blend-mode: screen;
+    filter: contrast(150%);
+  }
 }
 
 .footer-social-icons span {
@@ -150,17 +167,17 @@
 }
 .footer-cta { 
   @include tablet { 
-         display: flex;
-         justify-content: space-evenly;
-         margin: 15px 15px ;
-         padding : 10px 10px;
-         flex-wrap: wrap;
+        display: flex;
+        justify-content: space-evenly;
+        margin: 15px 15px ;
+        padding : 10px 10px;
+        flex-wrap: wrap;
 
   }
 }
 .single-cta { 
   @include tablet { 
-       margin: 20px 20px;
+        margin: 20px 20px;
 
   }
 }

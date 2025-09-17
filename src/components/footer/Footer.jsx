@@ -61,8 +61,16 @@ function Footer(props) {
                     <div class="row">
                         <div class="col-xl-12 col-lg-4 ">
                             <div class="footer-widget">
-                                <div class="footer-logo d-flex justify-content-center">
-                                    <img src={logo} class="img-fluid" alt="logo" />
+
+                                <div className="footer-video-container">
+                                    <video 
+                                        src="/videos/Footer-Video.mp4" 
+                                        autoPlay 
+                                        loop 
+                                        muted 
+                                        playsInline
+                                    >Change Your Browser Broo!
+                                    </video>
                                 </div>
                                 <div class="footer-social-icons">
                                     <span className='d-flex justify-content-center'>Follow us</span>
