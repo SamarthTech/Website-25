@@ -1,0 +1,36 @@
+import React , {useState} from 'react';
+import PropTypes from 'prop-types';
+
+Safalya25.propTypes = {
+    data: PropTypes.array
+};
+
+function Safalya25(props) {
+
+    const {data} = props;
+
+    const [dataBlock] = useState(
+        {
+            subheading: 'Annual Fest Of Samarth',
+            heading: 'Safalya \'25',
+        }
+    )
+    return (
+        <section className="portfolio">
+                <div className="shape"></div>
+                <div className="container">
+                    <div className="row">
+                        <div className="col-12">
+                            <div className="block-text center">
+                                <h6 className="sub-heading"><span>{dataBlock.subheading}</span></h6>
+                                <h3 className="heading pd">{dataBlock.heading}</h3>       
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </section>
+    );
+}
+
+export default Safalya25;
