@@ -1,20 +1,20 @@
 
-import img1 from '/images2/logo/rapido.webp'
-import img3 from '/images2/logo/kA.webp'
-import img2 from '/images2/logo/91.9.webp'
-import img4 from '/images2/logo/time.webp'
-import img5 from '/images2/logo/rice.webp'
-import img6 from '/images2/logo/r2r.webp'
-import img7 from '/images2/logo/kwicpic.webp'
+import img1 from '/images2/logo/KFC.webp'
+import img3 from '/images2/logo/Hindu.webp'
+import img2 from '/images2/logo/IDP.webp'
+import img4 from '/images2/logo/Keventer.webp'
+import img5 from '/images2/logo/BB.webp'
+import img6 from '/images2/logo/LG.webp'
+import img7 from '/images2/logo/Popski.webp'
 import img8 from '/images2/logo/lwt.webp'
-import img9 from '/images2/logo/intrainz.webp'
-import img10 from '/images2/logo/sconto.webp'
-import img11 from '/images2/logo/geoias.webp'
-import img12 from '/images2/logo/winni.webp'
-import img13 from '/images2/logo/mojs.webp'
-import img15 from '/images2/logo/vip.webp'
-import img14 from '/images2/logo/vr.webp'
-import img16 from '/images2/logo/chahal.webp'
+import img9 from '/images2/logo/DS.webp'
+import img10 from '/images2/logo/CC.webp'
+import img11 from '/images2/logo/RC.webp'
+import img12 from '/images2/logo/ECB.webp'
+import img13 from '/images2/logo/SG.webp'
+import img15 from '/images2/logo/KC.webp'
+import img14 from '/images2/logo/NT.webp'
+import img16 from '/images2/logo/NQ.webp'
 
 
 const dataPartner = [
@@ -83,6 +83,7 @@ const dataPartner = [
         id: 16,
         img: img16,
     },
+    
 
 
     
