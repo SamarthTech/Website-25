@@ -15,7 +15,8 @@ const img10 = '/images2/dataTeam3/img10.webp'
 const img11 = '/images2/dataTeam3/img11.webp'
 const img12 = '/images2/dataTeam3/img12.webp'
 const img13 = '/images2/dataTeam3/img13.webp'
-const img14 = '/images2/dataTeam3/img14.webp'
+// const img14 = '/images2/dataTeam3/img14.webp'
+const img14 = '/images2/dataTeam3/img14.jpg'
 const img15 = '/images2/dataTeam3/img15.webp'
 const img16 = '/images2/dataTeam3/img16.webp'
 const img17 = '/images2/dataTeam3/img17.webp'
@@ -53,16 +54,6 @@ const dataTeam3 = [
           link2: null
         }
   },
-    {
-        id: 3,
-        img: img1,
-        name: 'Sujay Dey',
-        position: 'Pravidhi Co-Head',
-        links: {
-            link1: null,
-            link2: null
-          }
-    },
   {
     id: 4,
     img: img3,
@@ -72,6 +63,26 @@ const dataTeam3 = [
         link1: null,
         link2: null
       }
+},
+{
+        id: 3,
+        img: img1,
+        name: 'Sujay Dey',
+        position: 'Pravidhi Co-Head',
+        links: {
+            link1: null,
+            link2: null
+          }
+    },
+{
+  id: 14,
+  img: img14,
+  name: 'Rajanya Ray',
+  position: 'Prakaran Co-Head',
+  links: {
+      link1: null,
+      link2: null
+    }
 },
 {
   id: 5,
@@ -158,16 +169,6 @@ const dataTeam3 = [
   img: img13,
   name: 'Aadarsh Ranjan',
   position: 'Management Co-Head',
-  links: {
-      link1: null,
-      link2: null
-    }
-},
-{
-  id: 14,
-  img: img14,
-  name: 'Rajanya Ray',
-  position: 'Prakaran Co-Head',
   links: {
       link1: null,
       link2: null

@@ -25,25 +25,6 @@ function Activity(props) {
 
     const dataBlock = [
         {
-            id: 14,
-            img: img14,
-            class: 'img1',
-            subheading: 'APERTRE 2.0',
-            heading: 'Apertre 2.0: Celebrating the Power of Open Source',
-            desc1: 'Team Samarth is excited to continue our journey as a proud Community Partner at Apertre 2.0 🌟, one of the most vibrant open-source gatherings in India.',
-            desc2: ''
-        },
-        
-        {
-            id: 13,
-            img: img13,
-            class: 'img1',
-            subheading: 'HACK4BENGAL 2025',
-            heading: 'HACK4BENGAL 2025: Igniting Innovation in the East',
-            desc1: 'Team Samarth is thrilled to announce our partnership with Hack4Bengal 2025 🚀, the grandest hackathon of Eastern India, where creativity meets cutting-edge tech.',
-            desc2: ''
-        },
-        {
             id: 12,
             img : img12,
             class:'img1',
@@ -61,6 +42,16 @@ function Activity(props) {
             desc1: '' ,
             desc2 :'Team Samarth proudly announces that we are now the Official Community Partner at SAP Inside Track Kolkata 2025 ',
         },
+        
+        {
+            id: 13,
+            img: img13,
+            class: 'img1',
+            subheading: 'HACK4BENGAL 2025',
+            heading: 'HACK4BENGAL 2025: Igniting Innovation in the East',
+            desc1: 'Team Samarth is thrilled to announce our partnership with Hack4Bengal 2025 🚀, the grandest hackathon of Eastern India, where creativity meets cutting-edge tech.',
+            desc2: ''
+        },
         {
             id: 10,
             img: img8,
@@ -69,6 +60,15 @@ function Activity(props) {
             heading: 'Config 2025 Watch Party – Kolkata!',
             desc1: 'Design. Collaboration. Inspiration. Config 2025 Watch Party brought it all together for the creative community ✨',
             desc2: 'Team Samarth is thrilled to announce that we are now the Official Community Partner for Config 2025 Watch Party – Kolkata 🎉. A night filled with design ideas, conversations, and limitless creativity.'
+        },
+        {
+            id: 14,
+            img: img14,
+            class: 'img1',
+            subheading: 'APERTRE 2.0',
+            heading: 'Apertre 2.0: Celebrating the Power of Open Source',
+            desc1: 'Team Samarth is excited to continue our journey as a proud Community Partner at Apertre 2.0 🌟, one of the most vibrant open-source gatherings in India.',
+            desc2: ''
         },
         {
             id: 9,

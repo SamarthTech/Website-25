@@ -15,6 +15,7 @@ const img12 = "/images2/dataTeam2/img12.webp";
 const img13 = "/images2/dataTeam2/img13.webp";
 const img14 = "/images2/dataTeam2/img14.webp";
 const img15 = "/images2/dataTeam2/img15.webp";
+const img16 = "/images2/dataTeam2/img16.webp";
 
 const dataTeam3 = [
   {
@@ -145,7 +146,7 @@ const dataTeam3 = [
   },
   {
     id: 15,
-    img: img15,
+    img: img16,
     name: "Ankit Kumar Gupta",
     position: "Convenor & Promotion Head",
     links: {
