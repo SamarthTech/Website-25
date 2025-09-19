@@ -6,7 +6,7 @@ import img3 from '/images2/events/Poster & video Contest.webp';
 // import img6 from '../images/events/COC Combine.webp';
 // import img7 from '../images/events/meme coc.webp';
 import img4 from '/images2/events/coc_25.webp';
-import img5 from '/images2/events/open-odyssey.jpg';
+import img5 from '/images2/events/open-odyssey.webp';
 
 
 
