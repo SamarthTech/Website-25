@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from "react";
+import React, { useState, useEffect, useRef } from "react";
 import Masonry from "react-masonry-css";
 import LightGallery from "lightgallery/react";
 import "lightgallery/css/lightgallery.css";
@@ -214,6 +214,7 @@ import img120 from "/images2/gallery/g118.webp";
 
 function Gallery(props) {
   const [displayedImages, setDisplayedImages] = useState([]);
+  const lightGalleryRef = useRef(null);
   
   const breakpointColumnsObj = {
     default: 6,
@@ -1165,28 +1166,49 @@ function Gallery(props) {
             <div className="image1 gallery-container">
               <LightGallery 
                 plugins={[lgThumbnail, lgZoom]}
+                ref={lightGalleryRef}
                 speed={500}
-                gutter={8}
+                thumbnail={true}
+                download={false}
+                counter={true}
+                closable={true}
+                showZoomInOutIcons={true}
+                actualSize={false}
+                mode="lg-fade"
+                dynamic={true}
+                dynamicEl={displayedImages.map(item => ({
+                  src: item.img,
+                  thumb: item.img,
+                  subHtml: `<h4>${item.alt}</h4>`
+                }))}
               >
-                <Masonry
-                  breakpointCols={breakpointColumnsObj}
-                  className="masonry-grid"
-                  columnClassName="masonry-grid_column"
-                  enableResizableChildren
-                  >
-                  {displayedImages.map((item) => (
-                    <a key={item.id} href={item.img}>
-                      <img
-                        alt={item.alt}
-                        src={item.img}
-                        data-src={item.img}
-                        className="lg-object gallery-image fade-in"
-                        style={{ marginBottom: "16px", borderRadius: "8px", maxWidth: "100%", height: "auto" }}
-                      />
-                    </a>
-                  ))}
-                </Masonry>
               </LightGallery>
+              
+              <Masonry
+                breakpointCols={breakpointColumnsObj}
+                className="masonry-grid"
+                columnClassName="masonry-grid_column"
+                enableResizableChildren
+              >
+                {displayedImages.map((item, index) => (
+                  <div 
+                    key={item.id} 
+                    className="gallery-item"
+                    onClick={() => {
+                      if (lightGalleryRef.current) {
+                        lightGalleryRef.current.openGallery(index);
+                      }
+                    }}
+                  >
+                    <img
+                      alt={item.alt}
+                      src={item.img}
+                      className="gallery-image fade-in"
+                      style={{ marginBottom: "16px", borderRadius: "8px", maxWidth: "100%", height: "auto" }}
+                    />
+                  </div>
+                ))}
+              </Masonry>
             </div>
           </div>
         </div>
@@ -1296,6 +1318,19 @@ function Gallery(props) {
             opacity: 0;
             filter: blur(8px) grayscale(30%);
             animation: fadeIn 0.8s ease forwards;
+            cursor: pointer;
+          }
+          .gallery-item {
+            display: block;
+            text-decoration: none;
+            outline: none;
+          }
+          .gallery-item:focus {
+            outline: 2px solid #007bff;
+            outline-offset: 2px;
+          }
+          .masonry-lightgallery {
+            width: 100%;
           }
           .gallery-image.fade-in {
             animation: fadeIn 0.8s ease forwards;

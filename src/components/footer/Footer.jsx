@@ -32,8 +32,8 @@ function Footer(props) {
                                     <i><FontAwesomeIcon icon={faPhone} /></i>
                                     <h4>Call us</h4>
                                     <span>
-                                        <div href="tel:+918240542475">+91 8240542475</div>
-                                        <div href="tel:+919153491144">+91 9153491144</div>
+                                        <div href="tel:+918240542475">+91 70617 51339</div>
+                                        <div href="tel:+919153491144">+91 87970 77633</div>
                                     </span>
                                 </div>
                             </div>

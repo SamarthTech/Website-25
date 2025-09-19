@@ -79,7 +79,11 @@ function Contact(props) {
                                                 </clipPath>
                                                 </defs>
                                             </svg>
-                                            <p>+91 82405 42475</p>
+                                            <div className='d-flex flex-column'>
+                                                <p>+91 70617 51339</p>
+                                            <p>+91 87970 77633</p>
+                                            </div>
+                                            
                                                 
                                         </li>
                                         <li>

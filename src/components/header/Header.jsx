@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react";
 import { Link, NavLink, useLocation } from "react-router-dom";
 import menus from "../../pages/menu";
-import logo from "/images2/new/newlogo.webp";
+import logo from "/SAMARTH_W.png";
 import "./styles.scss";
 
 const Header = () => {
