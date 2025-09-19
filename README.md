@@ -17,7 +17,7 @@ Samarth is a modern, student-driven platform for study resources, events, and co
 - 🎉 Event management and gallery
 - 👥 Team and member showcase
 - 📰 Latest notices and updates
-- 🧑‍💻 Tech team and contributors
+- 🧑‍💻 Tech team and contributors 
 
 ---
 
