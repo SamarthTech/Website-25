@@ -13,17 +13,21 @@ import img12 from '/images2/sponsor/sconto.webp';
 import img13 from '/images2/sponsor/vip.webp';
 import img14 from '/images2/sponsor/winni.webp';
 import img15 from '/images2/sponsor/91.9.webp';
-
-
-
-
-
-
-
-
-
-
-
+import img17 from '/images2/sponsor/IDP.webp'
+import img16 from '/images2/sponsor/KFC.webp'
+import img18 from '/images2/sponsor/Hindu.webp'
+import img19 from '/images2/sponsor/Keventer.webp'
+import img20 from '/images2/sponsor/BB.webp'
+import img21 from '/images2/sponsor/LG.webp'
+import img22 from '/images2/sponsor/Popski.webp'
+import img23 from '/images2/sponsor/DS.webp'
+import img24 from '/images2/sponsor/CC.webp'
+import img25 from '/images2/sponsor/RC.webp'
+import img26 from '/images2/sponsor/ECB.webp'
+import img27 from '/images2/sponsor/SG.webp'
+import img28 from '/images2/sponsor/KC.webp'
+import img29 from '/images2/sponsor/NT.webp'
+import img30 from '/images2/sponsor/NQ.webp'
 
 
 const dataProject2= [
@@ -116,6 +120,96 @@ const dataProject2= [
         img: img15,
         title: '91.4  Friends FM',
         position: 'Radio  Partner',
+    },
+    {
+        id: 16,
+        img: img16,
+        title: 'KFC',
+        position: 'Food Partner',
+    },
+    {
+        id: 17,
+        img: img17,
+        title: 'IDP',
+        position: 'Education Partner',
+    },
+    {
+        id: 18,
+        img: img18,
+        title: 'Hindu',
+        position: 'Media Partner',
+    },
+    {
+        id: 19,
+        img: img19,
+        title: 'Keventer',
+        position: 'Food Partner',
+    },
+    {
+        id: 20,
+        img: img20,
+        title: 'BB',
+        position: 'Food Partner',
+    },
+    {
+        id: 21,
+        img: img21,
+        title: 'LG',
+        position: 'Electronics Partner',
+    },
+    {
+        id: 22,
+        img: img22,
+        title: 'Popski',
+        position: 'Food Partner',
+    },
+    {
+        id: 23,
+        img: img23,
+        title: 'DS',
+        position: 'Food Partner',
+    },
+    {
+        id: 24,
+        img: img24,
+        title: 'CC',
+        position: 'Food Partner',
+    },
+    {
+        id: 25,
+        img: img25,
+        title: 'RC',
+        position: 'Food Partner',
+    },
+    {
+        id: 26,
+        img: img26,
+        title: 'ECB',
+        position: 'Food Partner',
+    },
+    {
+        id: 27,
+        img: img27,
+        title: 'SG',
+        position: 'Food Partner',
+    },
+    {
+        id: 28,
+        img: img28,
+        title: 'KC',
+        position: 'Food Partner',
+    },
+    {
+        id: 29,
+        img: img29,
+        title: 'NT',
+        position: 'Food Partner',
+    },
+    {
+        id: 30,
+        img: img30,
+        title: 'NQ',
+        position: 'Food Partner',
     },
 ];
 

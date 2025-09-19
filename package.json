@@ -27,7 +27,7 @@
     "react-tabs": "^5.1.0",
     "react-transition-group": "^4.4.2",
     "sass": "^1.50.0",
-    "swiper": "^8.1.1",
+    "swiper": "^8.4.7",
     "web-vitals": "^2.1.4"
   },
   "scripts": {
