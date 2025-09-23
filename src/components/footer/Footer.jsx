@@ -4,7 +4,7 @@ import logo from '/images2/new/whitelogo.webp';
 import './styles.scss';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faLocationDot, faPhone, faEnvelopeOpen } from '@fortawesome/free-solid-svg-icons'
-import { faInstagram, faTwitter, faFacebookF, faLinkedin } from '@fortawesome/free-brands-svg-icons';
+import { faInstagram, faFacebookF, faLinkedin, faYoutube } from '@fortawesome/free-brands-svg-icons';
 
 // Specify all properties: name, family, style
 
@@ -67,14 +67,15 @@ function Footer(props) {
                                 <div class="footer-social-icons">
                                     <span className='d-flex justify-content-center'>Follow us</span>
                                     <div class="d-flex justify-content-center">
-                                        <a href="https://m.facebook.com/SamarthTMSL?fref=nf&refid=52&__tn__=%7E-R" target="blank"><i><FontAwesomeIcon icon={faFacebookF} /></i></a>
-                                        <a href="https://twitter.com/SamarthTmsl" target="blank"><i><FontAwesomeIcon icon={faTwitter} /></i></a>
-                                        <a href="https://www.instagram.com/samarth_tmsl_official/" target="blank"><i><FontAwesomeIcon icon={faInstagram} /></i></a>
+                                        <a href="https://www.instagram.com/samarth_tmsl/" target="blank"><i><FontAwesomeIcon icon={faInstagram} /></i></a>
                                         <a href="https://www.linkedin.com/company/samarthtmsl/" target="blank"><i><FontAwesomeIcon icon={faLinkedin} /></i></a>
+                                        <a href="https://m.facebook.com/SamarthTMSL?fref=nf&refid=52&__tn__=%7E-R" target="blank"><i><FontAwesomeIcon icon={faFacebookF} /></i></a>
+                                        <a href="https://www.youtube.com/@samarthtmsl" target="blank"><i><FontAwesomeIcon icon={faYoutube} /></i></a>
+                                        
                                     </div>
                                 </div>
                             </div>
-                        </div>
+                        </div> 
                     </div>
                 </div>
             </div>
