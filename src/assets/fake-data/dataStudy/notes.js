@@ -49,3 +49,24 @@ export const pyqs = [
 
 ]
 
+export const Competitive_pyqs = [
+
+    {
+        id: 1,
+        title: 'GATE',
+        url:'https://drive.google.com/drive/folders/1K7kWz1qqGEQj1yXxhiu-uDIcSFJ1JJtr?usp=drive_link'
+    },
+
+    {
+        id: 2,
+        title: 'NDA',
+        url:'https://drive.google.com/drive/folders/130YSiUjFtQd1hOy7gx8rXllwe4SAuK1n?usp=drive_link'
+    },
+
+    {
+        id: 3,
+        title: 'UPSC',
+        url:'https://drive.google.com/drive/folders/1MDSnbEzxHpqfthcfSlReNu4KJs7ldEDy?usp=drive_link'
+    },
+
+]

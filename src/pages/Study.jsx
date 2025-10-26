@@ -11,7 +11,7 @@ import playlists from "../assets/fake-data/dataStudy/playlists";
 import Channels from "../components/aspirants/Channels";
 import study_channel from "../assets/fake-data/dataStudy/study_channel";
 import Websites from "../components/aspirants/Websites";
-import {notes,pyqs} from "../assets/fake-data/dataStudy/notes";
+import {notes,pyqs,Competitive_pyqs} from "../assets/fake-data/dataStudy/notes";
 
 // Exam.jsx imports
 import dataGate from '../assets/fake-data/data-gate';
@@ -123,6 +123,13 @@ function Study() {
                 <Websites data={websites_data} />
               </div>
             </div>
+            <div style={{ minWidth: 220, marginBottom: '1.5rem' }}>
+                <h4 style={{ marginBottom: '1rem' }}>PYQs</h4>
+                <div style={{ padding: '0.5rem 0 0.5rem 0', minHeight: '60px' }}>
+                  <Websites data={Competitive_pyqs} />
+              </div>
+          </div>
+
           </div>
         </div>
       </div>
