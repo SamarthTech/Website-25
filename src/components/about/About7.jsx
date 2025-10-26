@@ -41,7 +41,7 @@ function About7(props) {
 
     const [dataBlock] = useState(
         {
-            subheading: 'OutReach Wing',
+            subheading: 'Outreach Wing',
             heading: 'Sampreshan',
             desc1: '"Through the lens, we capture the symphony of fleeting moments."' ,
             desc2 : "Sampreshan, the storytellers through the visual prism. Our emblem, a camera's lens, encapsulates the essence of fleeting instants, immortalizing the dynamic energy of Samarth's journey"
