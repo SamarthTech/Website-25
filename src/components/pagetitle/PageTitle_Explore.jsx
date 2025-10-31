@@ -51,7 +51,7 @@ function PageTitle(props) {
                         </svg>
                       </a>
                     </li>
-                    <li>
+                    {/* <li>
                       <a href="https://twitter.com/Samarth_tmsl" target='_blank'>
                         <svg
                           width="15"
@@ -66,7 +66,7 @@ function PageTitle(props) {
                           />
                         </svg>
                       </a>
-                    </li>
+                    </li> */}
                     <li>
                       <a href="https://www.linkedin.com/company/samarthtmsl/mycompany/" target='_blank'>
                         <svg

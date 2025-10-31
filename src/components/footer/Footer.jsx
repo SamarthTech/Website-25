@@ -32,8 +32,9 @@ function Footer(props) {
                                     <i><FontAwesomeIcon icon={faPhone} /></i>
                                     <h4>Call us</h4>
                                     <span>
-                                        <div href="tel:+918240542475">+91 70617 51339</div>
-                                        <div href="tel:+919153491144">+91 87970 77633</div>
+                                        <div href="tel:+916282223170">+91 62822 23170</div>
+                                        <div href="tel:+917061751339">+91 70617 51339</div>
+                                        <div href="tel:+918797077633">+91 87970 77633</div>
                                     </span>
                                 </div>
                             </div>
@@ -47,9 +48,9 @@ function Footer(props) {
                                         <a href="mailto:samarth.tmsl@gmail.com">samarth.tmsl@gmail.com</a>
                                     </span>
                                     <br />
-                                    <p>
+                                    {/* <p>
                                         <a href="mailto:business.samarth.tmsl@gmail.com">business.samarth.tmsl@gmail.com</a>
-                                    </p>
+                                    </p> */}
                                 </div>
 
                             </div>
@@ -76,7 +77,7 @@ function Footer(props) {
                                     <span className='d-flex justify-content-center'>Follow us</span>
                                     <div class="d-flex justify-content-center">
                                         <a href="https://m.facebook.com/SamarthTMSL?fref=nf&refid=52&__tn__=%7E-R" target="blank"><i><FontAwesomeIcon icon={faFacebookF} /></i></a>
-                                        <a href="https://twitter.com/SamarthTmsl" target="blank"><i><FontAwesomeIcon icon={faXTwitter} /></i></a>
+                                        {/* <a href="https://twitter.com/SamarthTmsl" target="blank"><i><FontAwesomeIcon icon={faXTwitter} /></i></a> */}
                                         <a href="https://www.instagram.com/samarth_tmsl/" target="blank"><i><FontAwesomeIcon icon={faInstagram} /></i></a>
                                         <a href="https://www.linkedin.com/company/samarthtmsl/" target="blank"><i><FontAwesomeIcon icon={faLinkedin} /></i></a>
                                     </div>
