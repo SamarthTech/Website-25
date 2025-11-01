@@ -19,22 +19,15 @@ const dataItem6 = [
     link: 'https://forms.gle/mA5XePyX9ewPasPD7',
     rulebook: 'https://drive.google.com/drive/folders/1C4uWY9tFQ9VLXdacHfU8wtoVA40pzim_?usp=sharing',
   },
-  {
-    id: 2,
-    img: img3,
-    title: 'Poster Design & Video Editing',
-    ownedBy: 'KALAKRITI - Graphic Wing',
-    link: 'https://forms.gle/mA5XePyX9ewPasPD7',
-    rulebook: 'https://drive.google.com/drive/folders/1C4uWY9tFQ9VLXdacHfU8wtoVA40pzim_?usp=sharing',
-},
-  {
-    id: 3,
-    img: img4,
-    title: 'Clash of Creativity',
-    ownedBy: 'Samarth',
-    link: 'https://forms.gle/mA5XePyX9ewPasPD7',
-      rulebook: 'https://drive.google.com/drive/folders/1C4uWY9tFQ9VLXdacHfU8wtoVA40pzim_?usp=sharing',
-},
+//   {
+//     id: 2,
+//     img: img3,
+//     title: 'Poster Design & Video Editing',
+//     ownedBy: 'KALAKRITI - Graphic Wing',
+//     link: 'https://forms.gle/mA5XePyX9ewPasPD7',
+//     rulebook: 'https://drive.google.com/drive/folders/1C4uWY9tFQ9VLXdacHfU8wtoVA40pzim_?usp=sharing',
+// },
+
   {
     id: 4,
     img: img5,
@@ -42,6 +35,14 @@ const dataItem6 = [
     ownedBy: 'Samarth',
     link: 'https://open-odyssey.samarthtmsl.in/',
       rulebook: '/',
+},
+  {
+    id: 3,
+    img: img4,
+    title: 'Clash of Creativity',
+    ownedBy: 'Samarth',
+    link: 'Registrations Closed',
+    rulebook: 'https://drive.google.com/drive/folders/1C4uWY9tFQ9VLXdacHfU8wtoVA40pzim_?usp=sharing',
 },
   {
     id: 5,

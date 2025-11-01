@@ -31,6 +31,8 @@ import Project9 from '../components/project/Project9';
 import Safalya25 from '../components/eventhead/Safalya25';
 import dataSafalya25 from '../assets/fake-data/data-safalya25';
 
+import dataCard from '../assets/fake-data/data-card';
+
 
 
 function Events(props) {
@@ -40,7 +42,7 @@ function Events(props) {
 
             {/* Live Events */}
             <Portfolio7/> 
-            <Project8 data={dataItem6} />
+            <Project8 data={dataCard} />
             
             {/* Safalya'25 */}
             <Safalya25 />

@@ -45,6 +45,18 @@ function Banner2(props) {
                                         <Button title='Get Connected' link='/contact' />
                                 </div>
 
+                                <div className="block-text center" style={{ marginTop: '80px' }}>
+                                    <h6 className="sub-heading"><span>Our Events</span></h6>
+                                    <h2 className="heading pd">Live Events</h2>
+                                </div>
+                                 <div style={{
+                                        width: '100px',
+                                        height: '4px',
+                                        background: 'linear-gradient(90deg, #7C3AED, #A78BFA)',
+                                        margin: '0 auto',
+                                        borderRadius: '2px'
+                                    }}></div>
+
                                 <Swiper
                                     effect={"coverflow"}
                                     grabCursor={true}
@@ -104,6 +116,41 @@ function Banner2(props) {
                                                                     <h6 className="name">{idx.name}</h6>
                                                                     <p>{idx.tag}</p>
                                                                 </div>
+                                                            </div>
+
+                                                            {/* Registration Button */}
+                                                            <div className="registration-btn" style={{ 
+                                                                marginTop: '15px', 
+                                                                textAlign: 'center' 
+                                                            }}>
+                                                                {idx.isLive && idx.registrationLink ? (
+                                                                    <a 
+                                                                        href={idx.registrationLink} 
+                                                                        target="_blank" 
+                                                                        rel="noopener noreferrer"
+                                                                        className="action-btn"
+                                                                    >
+                                                                        <span>REGISTER NOW</span>
+                                                                    </a>
+                                                                ) : idx.comingSoon ? (
+                                                                    <div className="action-btn" style={{ cursor: 'default' }}>
+                                                                        <span style={{ 
+                                                                            background: 'linear-gradient(264.28deg, #FFA500 -38.2%, #FF8C00 103.12%)',
+                                                                            cursor: 'default'
+                                                                        }}>
+                                                                            COMING SOON
+                                                                        </span>
+                                                                    </div>
+                                                                ) : (
+                                                                    <div className="action-btn" style={{ cursor: 'not-allowed', opacity: '0.7' }}>
+                                                                        <span style={{ 
+                                                                            background: 'linear-gradient(264.28deg, #6B7280 -38.2%, #4B5563 103.12%)',
+                                                                            cursor: 'not-allowed'
+                                                                        }}>
+                                                                            REGISTRATION CLOSED
+                                                                        </span>
+                                                                    </div>
+                                                                )}
                                                             </div>
                                                         </div>
                                                     </div>

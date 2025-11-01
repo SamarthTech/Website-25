@@ -1,6 +1,6 @@
 import React from 'react';
 
-import PageTitle from '../components/pagetitle/PageTitle';
+import PageTitle from '../components/pagetitle/PageTitle_Explore';
 
 import Team2 from '../components/team/Team2';
 import dataTeam from '../assets/fake-data/dataTeam';

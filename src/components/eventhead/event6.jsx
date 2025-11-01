@@ -19,7 +19,7 @@ function Portfolio7(props) {
         }
     )
     return (
-        <section className="portfolio">
+        <section className="portfolio" >
                 <div className="shape"></div>
                 <div className="container">
                     <div className="row">

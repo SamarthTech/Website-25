@@ -1,6 +1,6 @@
 import React from 'react';
 
-import PageTitle from '../components/pagetitle/PageTitle';
+import PageTitle from '../components/pagetitle/PageTitle_Explore';
 
 import Project7 from '../components/project/Project7';
 

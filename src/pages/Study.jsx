@@ -3,7 +3,7 @@ import React, { useState, useEffect } from "react";
 import "../scss/component/_aspirants.scss";
 import "./resc.css";
 
-import PageTitle from "../components/pagetitle/PageTitle";
+import PageTitle from "../components/pagetitle/PageTitle_Explore";
 import UpcomingExams from "../components/aspirants/UpcomingExams";
 import notices from "../assets/fake-data/dataStudy/notices";
 import Videos from "../components/aspirants/Videos";
