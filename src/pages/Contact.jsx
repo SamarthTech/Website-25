@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import PageTitle from '../components/pagetitle/PageTitle';
+import PageTitle from '../components/pagetitle/PageTitle_Explore';
 import img from '/images2/new/violetlogo.webp'
 
 function Contact(props) {

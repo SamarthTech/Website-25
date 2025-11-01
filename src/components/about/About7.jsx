@@ -43,8 +43,8 @@ function About7(props) {
         {
             subheading: 'Outreach Wing',
             heading: 'Sampreshan',
-            desc1: '"Through the lens, we capture the symphony of fleeting moments."' ,
-            desc2 : "Sampreshan, the storytellers through the visual prism. Our emblem, a camera's lens, encapsulates the essence of fleeting instants, immortalizing the dynamic energy of Samarth's journey"
+            desc1: '"Bridging Minds Beyond Campus"' ,
+            desc2 : "Sampreshan is our club’s outreach wing, dedicated to connecting with other colleges and student communities. It builds lasting relationships, encourages idea sharing, and helps us grow together as a larger learning family "
         }
     )
     return (

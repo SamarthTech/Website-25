@@ -16,7 +16,7 @@ import About6 from '../components/about/About6';
 import About7 from '../components/about/About7';
 // import media from '/images2/new/Sampreshan.webp';
 // import blackbg from '/images2/new/purple.webp';
-import PageTitle from '../components/pagetitle/PageTitle';
+import PageTitle from '../components/pagetitle/PageTitle_Explore';
 
 const Wings = () => {
   useEffect(() => {
