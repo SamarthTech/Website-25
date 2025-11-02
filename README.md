@@ -9,7 +9,7 @@
 
 ---
  
-## 🚀 About Samarth
+## 🚀 About Samarth 
 
 Samarth is a modern, student-driven platform for study resources, events, and collaboration. Built for the MAKAUT community, it provides:
 
