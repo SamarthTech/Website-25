@@ -1,4 +1,4 @@
-import React , {useState} from 'react';
+    import React , {useState} from 'react';
 import PropTypes from 'prop-types';
 
 
@@ -17,10 +17,10 @@ function Portfolio6(props) {
             subheading: 'Take a Look Back',
             heading: 'Past Events',
             
-        }
+        }   
     )
     return (
-        <section className="portfolio">
+        <section className="portfolio" style={{ marginTop: '-60px' }}>
                 <div className="shape"></div>
                 <div className="container">
                     <div className="row">

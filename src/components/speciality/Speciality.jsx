@@ -15,7 +15,7 @@ function Speciality(props) {
         }
     )
     return (
-        <section className="speciality">
+        <section className="speciality" style={{ marginTop: '-120px' }}>
                 <div className="shape right"></div>
                 <div className="container">
                     <div className="row">
