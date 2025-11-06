@@ -14,7 +14,7 @@ const img12 = '/images2/new/card13.webp'
 const img13 = '/images2/new/card14.webp'
 const img14 = '/images2/new/card15.webp'
 const img15 = '/images2/new/card16.webp'
-const img16 = '/images2/new/educathonPoster.jpeg'
+const img16 = '/images2/new/educathonPoster.webp'
 const img17 = '/images2/events/coc_25.webp'
 const img18 = '/images2/events/open-odyssey.webp'
 const img19 = '/images2/events/COMING SOON.webp'
@@ -63,7 +63,7 @@ const dataCard = [
         avt: logo,
         name: 'Team Samarth',
         tag: '@TechTeam',
-        isLive: true,
+        isLive: false,
         registrationLink: 'https://educathon.samarthtmsl.in/'
     },
     {
