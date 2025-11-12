@@ -9,6 +9,7 @@ import About from"./About";
 import Exam from"./Exam";
 import Aspirants from "./Aspirants";
 import Study from "./Study";
+import Results from "./Results";
 
 
 const routes = [
@@ -23,7 +24,7 @@ const routes = [
   { path : '/Resources',component: <Exam />},
   { path : '/Aspirants',component: <Aspirants />},
   { path : '/study',component: <Study />},
-  
+  { path : '/results',component: <Results />},
   
 
 ]

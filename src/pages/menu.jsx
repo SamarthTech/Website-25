@@ -12,12 +12,7 @@ const menus = [
         // isNew: 'true',
     },
     
-    // {
-    //     id: 9,
-    //     name: ' ',
-    //     links: '#',
-    //     className: 'menu-spacing', // Added spacing between Study Material and Wings
-    // },
+
 
     {
         id: 2,
@@ -30,6 +25,7 @@ const menus = [
         links: '/Events',
         // isNew: true,
     },
+    
     {
         id: 3,
         name: 'Explore',
@@ -61,7 +57,12 @@ const menus = [
         name: 'Team',
         links: '/team',
     },
-
+    {
+        id: 9,
+        name: 'Results',
+        links: '/results',
+        // isNew: 'true',
+    },
 
     {
         id: 6,

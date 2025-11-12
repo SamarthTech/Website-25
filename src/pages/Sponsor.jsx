@@ -4,7 +4,6 @@ import PageTitle from '../components/pagetitle/PageTitle_Explore';
 
 import Project7 from '../components/project/Project7';
 
-import dataProject2 from '../assets/fake-data/dataProject2';
 
 function Sponsor(props) {
     return (
