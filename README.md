@@ -1,4 +1,4 @@
-<div align="center">
+ <div align="center">
   <br>
   <img height="220" src="public/images/newlogo.webp" alt="Samarth logo">
   <br>
