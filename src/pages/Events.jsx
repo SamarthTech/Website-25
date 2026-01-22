@@ -46,13 +46,14 @@ function Events(props) {
             <Portfolio7/> 
             <Project8 data={dataCard} />
             
-            {/* Safalya'25 */}
-            {/* <Safalya25 />
-            <Project3 data={dataSafalya25} /> */}
 
             {/* Safalya'26 */}
             <Safalya26 />
             <Project3 data={dataSafalya26} />
+
+            {/* Safalya'25 */}
+            <Safalya25 />
+            <Project3 data={dataSafalya25} />
 
             {/* Past Events */}
             <Portfolio6></Portfolio6>
