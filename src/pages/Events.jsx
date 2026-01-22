@@ -43,17 +43,13 @@ function Events(props) {
       <PageTitle title="Events" desc="Explore Our Exciting Events Here" />
 
             {/* Live Events */}
-            <Portfolio7/> 
-            <Project8 data={dataCard} />
+            {/* <Portfolio7/>  */}
             
-
             {/* Safalya'26 */}
-            <Safalya26 />
-            <Project3 data={dataSafalya26} />
-
-            {/* Safalya'25 */}
-            <Safalya25 />
-            <Project3 data={dataSafalya25} />
+            <Safalya26 data={dataSafalya26} />
+            {/* <Project3 data={dataSafalya26} /> */}
+            {/* <Project8 data={dataCard} /> */}
+            
 
             {/* Past Events */}
             <Portfolio6></Portfolio6>
