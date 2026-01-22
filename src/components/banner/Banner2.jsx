@@ -142,7 +142,7 @@ function Banner2(props) {
                                                             </span>
                                                         </div>
                                                     ) : (
-                                                        //registration closed state
+                                                        //registration closed
                                                         <div className="action-btn" style={{ cursor: 'not-allowed', opacity: '0.7' }}>
                                                             <span style={{
                                                                 background: 'linear-gradient(264.28deg, #6B7280 -38.2%, #4B5563 103.12%)',
