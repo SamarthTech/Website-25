@@ -5,11 +5,13 @@ name: Image Optimization and Conversion
 
 on:
   push:
-    branches:
-      - main
+    branches: [main]
+    paths:
+      - "public/images/**"
   pull_request:
-    branches:
-      - main
+    branches: [main]
+    paths:
+      - "public/images/**"
   workflow_dispatch:
 
 permissions:
@@ -18,48 +20,82 @@ permissions:
 jobs:
   optimize-and-convert:
     runs-on: ubuntu-latest
-    
+
     steps:
+      
+      # Checkout
+      
       - name: Checkout repository
         uses: actions/checkout@v4
         with:
           fetch-depth: 0
 
-      - name: Cache apt packages
+      
+      # Cache APT packages (WebP tools)
+      
+      - name: Cache APT packages
         uses: actions/cache@v3
         with:
-          path: /var/cache/apt/archives
-          key: ${{ runner.os }}-apt-${{ hashFiles('**/image-optimization.yml') }}
+          path: |
+            /var/cache/apt/archives
+            /usr/bin/cwebp
+            /usr/bin/dwebp
+          key: ${{ runner.os }}-webp-${{ hashFiles('.github/workflows/image-optimization.yml') }}
           restore-keys: |
-            ${{ runner.os }}-apt-
+            ${{ runner.os }}-webp-
 
+      
+      # Detect image changes
+      
+      - name: Detect image changes
+        id: image_check
+        run: |
+          if git diff --name-only ${{ github.event.before }} ${{ github.sha }} \
+            | grep -E '^public/images/.*\.(png|jpg|jpeg|bmp|tiff)$'; then
+            echo "images_changed=true" >> $GITHUB_OUTPUT
+          else
+            echo "images_changed=false" >> $GITHUB_OUTPUT
+          fi
+
+      - name: Exit if no images changed
+        if: steps.image_check.outputs.images_changed == 'false'
+        run: |
+          echo "No image changes detected. Skipping job."
+          exit 0
+
+      
+      # Install WebP tools (uses cache if present)
+      
       - name: Install WebP Tools
-        run: sudo apt-get update && sudo apt-get install webp -y
-        
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y webp
+
+      
+      # Convert images to WebP
+      
       - name: Convert Images to WebP and Remove Originals
         run: |
-          find . -type f \( -iname "*.jpg" -o -iname "*.jpeg" -o -iname "*.png" -o -iname "*.tiff" -o -iname "*.bmp" \) \
-          -not -path "*/node_modules/*" \
-          -not -path "*/.github/*" \
-          -not -path "*/dist/*" \
-          -not -path "*/build/*" \
-          -not -path "*/android/*" \
-          -not -path "*/public/images2/new/guest*" \
+          find public/images -type f \( \
+            -iname "*.jpg" -o -iname "*.jpeg" -o -iname "*.png" \
+            -o -iname "*.tiff" -o -iname "*.bmp" \
+          \) \
+          -not -path "*/public/images2/new/guest/*" \
           -exec sh -c '
             for file do
-              webp_path="${file%.*}.webp"
-              if [ ! -f "$webp_path" ]; then
-                if cwebp -q 60 "$file" -o "$webp_path"; then
-                  echo "Converted $file to $webp_path"
+              webp="${file%.*}.webp"
+              if [ ! -f "$webp" ]; then
+                if cwebp -q 60 "$file" -o "$webp"; then
                   rm "$file"
-                  echo "Removed original file: $file"
-                else
-                  echo "Failed to convert $file"
+                  echo "Converted and removed: $file"
                 fi
               fi
             done
           ' sh {} +
 
+      
+      # Optimize WebP images
+      
       - name: Optimize WebP Images
         uses: calibreapp/image-actions@main
         with:
@@ -71,7 +107,7 @@ jobs:
             .github/**
             **/dist/**
             **/build/**
-            **/public/images2/new/guest**
+            **/public/images2/new/guest/**
             **/android/**
 
       - name: Update image imports to WebP (only changed files)
@@ -92,17 +128,21 @@ jobs:
             | grep -E '\.(js|jsx|ts|tsx)$' \
             | xargs -r sed -i -E 's/\.(png|jpg|jpeg|bmp|tiff)(["'\''\)])/\.webp\2/g'
 
+
+
+      # Commit optimized images
+      
       - name: Commit and Push Changes
         run: |
-          git config --local user.email "github-actions[bot]@users.noreply.github.com"
-          git config --local user.name "github-actions[bot]"
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
 
-          git add -A
+          git add public/images
 
           if [ -z "$(git status --porcelain)" ]; then
             echo "No changes to commit"
             exit 0
           fi
 
-          git commit -m "Optimize images and update imports to WebP format"
+          git commit -m "Optimize images and convert to WebP"
           git push
