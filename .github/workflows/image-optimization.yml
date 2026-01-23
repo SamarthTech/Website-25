@@ -11,7 +11,7 @@ on:
   pull_request:
     branches: [main]
     paths:
-      - "public/images/**"
+      - "public/images2/**"
   workflow_dispatch:
 
 permissions:
