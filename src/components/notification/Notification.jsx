@@ -18,7 +18,7 @@ function Notification({ message, link, onClose }) {
                 <span className="notification-message">{message}</span>
                 {link && (
                     <a href={link} className="notification-link">
-                        Learn More
+                        Register Now →
                     </a>
                 )}
                 <button className="notification-close" onClick={handleClose}>
