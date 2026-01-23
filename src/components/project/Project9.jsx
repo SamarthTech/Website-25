@@ -33,6 +33,7 @@ function Project9(props) {
           {data.map((item) => (
             <div key={item.id} className="col-xl-3 col-md-6">
               <div className="nft-item">
+                
                 <div className="card-media">
                   <Link to="#">
                     <img src={item.img} alt="Cyfonii" />
