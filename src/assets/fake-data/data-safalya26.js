@@ -1,17 +1,17 @@
-import safalyaImg1 from '/images2/safalya-2026/Apti Acumen.png';
-import safalyaImg2 from '/images2/safalya-2026/Brain Blitz.png';
-import safalyaImg3 from '/images2/safalya-2026/Combine.png';
-import safalyaImg4 from '/images2/safalya-2026/Echoes of history.png';
-import safalyaImg5 from '/images2/safalya-2026/Innovathon.png';
-import safalyaImg6 from '/images2/safalya-2026/Instant Ink.png';
-import safalyaImg7 from '/images2/safalya-2026/Matrix Of Mock.png';
-import safalyaImg8 from '/images2/safalya-2026/Model United States.png';
-import safalyaImg9 from '/images2/safalya-2026/Reimagine book cover.png';
-import safalyaImg10 from '/images2/safalya-2026/Sherlock Escape.png';
-import safalyaImg11 from '/images2/safalya-2026/Shot A reel.png';
-import safalyaImg12 from '/images2/safalya-2026/Snap Flicks.png';
-import safalyaImg13 from '/images2/safalya-2026/Suit and Strat.png';
-import safalyaImg14 from '/images2/safalya-2026/Triathlon.png';
+import safalyaImg1 from '/images2/safalya-2026/Apti Acumen.webp';
+import safalyaImg2 from '/images2/safalya-2026/Brain Blitz.webp';
+import safalyaImg3 from '/images2/safalya-2026/Combine.webp';
+import safalyaImg4 from '/images2/safalya-2026/Echoes of history.webp';
+import safalyaImg5 from '/images2/safalya-2026/Innovathon.webp';
+import safalyaImg6 from '/images2/safalya-2026/Instant Ink.webp';
+import safalyaImg7 from '/images2/safalya-2026/Matrix Of Mock.webp';
+import safalyaImg8 from '/images2/safalya-2026/Model United States.webp';
+import safalyaImg9 from '/images2/safalya-2026/Reimagine book cover.webp';
+import safalyaImg10 from '/images2/safalya-2026/Sherlock Escape.webp';
+import safalyaImg11 from '/images2/safalya-2026/Shot A reel.webp';
+import safalyaImg12 from '/images2/safalya-2026/Snap Flicks.webp';
+import safalyaImg13 from '/images2/safalya-2026/Suit and Strat.webp';
+import safalyaImg14 from '/images2/safalya-2026/Triathlon.webp';
 
 const dataSafalya26 = [
   {

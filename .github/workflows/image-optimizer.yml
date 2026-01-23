@@ -27,7 +27,7 @@ jobs:
         with:
           github-token: ${{ secrets.GITHUB_TOKEN }}
           export-webp: true
-          export-avif: true
+          export-avif: false
           replace-original-after-export-webp: true
           ignore-paths: |
             public/images2/new/guest/**
