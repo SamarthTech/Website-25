@@ -92,14 +92,14 @@ function Safalya26(props) {
                                             {item.likes && <span className="number-like"> {item.likes}</span>}
                                         </Link>
                                     </div>
-                                    <div className="button-place-bid" style={{ width: '100%' }}>
+                                    <div className="button-place-bid" style={{ width: '100%', display: 'flex', gap: '10px' }}>
                                         <a 
                                             href={item.link} 
                                             target="_blank" 
                                             rel="noopener noreferrer"
                                             className="action-btn"
                                             style={{ 
-                                                width: '100%', 
+                                                width: '50%', 
                                                 justifyContent: 'center',
                                                 background: 'transparent',
                                                 border: 'none',
@@ -107,7 +107,24 @@ function Safalya26(props) {
                                                 backdropFilter: 'none'
                                             }}
                                         >
-                                            <span>Register Now</span>
+                                            <span style={{ whiteSpace: 'nowrap' }}>Register Now</span>
+                                        </a>
+                                        <a 
+                                            href={item.rulebook} 
+                                            target="_blank" 
+                                            rel="noopener noreferrer"
+                                            className="action-btn"
+                                            style={{ 
+                                                width: '50%', 
+                                                justifyContent: 'center',
+                                                background: '#ffd700',
+                                                backgroundColor: '#ffd700',
+                                                border: '1px solid #ffd700',
+                                                padding: '0',
+                                                backdropFilter: 'none'
+                                            }}
+                                        >
+                                            <span style={{ color: '#000', background: '#ffd700', backgroundColor: '#ffd700', whiteSpace: 'nowrap' }}>Rulebook</span>
                                         </a>
                                     </div>
                                 </div>

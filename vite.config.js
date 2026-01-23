@@ -7,6 +7,7 @@ export default defineConfig({
   server: {
     // Define rewrites here for development purposes
     port: 5173,
+    open: true,
     proxy: {
       // '/': {
       //   target: '/index.html',
