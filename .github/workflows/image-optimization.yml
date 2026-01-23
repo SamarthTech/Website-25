@@ -7,7 +7,7 @@ on:
   push:
     branches: [main]
     paths:
-      - "public/images/**"
+      - "public/images2/**"
   pull_request:
     branches: [main]
     paths:
