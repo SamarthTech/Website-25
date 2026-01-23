@@ -52,6 +52,17 @@ const logo = '/images2/new/newlogo.webp'
 const dataCard2 = [
     {
         id: 1,
+        img: img3,
+        title: 'Safalya \'26',
+        avt: logo,
+        name: 'Team Samarth',
+        tag: '@Safalya26',
+        isLive: false,
+        comingSoon: true,
+        registrationLink: 'https://forms.gle/q1hMgxnxiu64msWk8'
+    },
+    {
+        id: 2,
         img: img1,
         title: 'Apti Acumen',
         avt: logo,
@@ -59,10 +70,10 @@ const dataCard2 = [
         tag: '@Safalya26',
         isLive: false,
         comingSoon: true,
-        registrationLink: ''
+        registrationLink: 'https://forms.gle/q1hMgxnxiu64msWk8'
     },
     {
-        id: 2,
+        id: 3,
         img: img2,
         title: 'Brain Blitz',
         avt: logo,
@@ -70,18 +81,7 @@ const dataCard2 = [
         tag: '@Safalya26',
         isLive: false,
         comingSoon: true,
-        registrationLink: ''
-    },
-    {
-        id: 3,
-        img: img3,
-        title: 'Combine',
-        avt: logo,
-        name: 'Team Samarth',
-        tag: '@Safalya26',
-        isLive: false,
-        comingSoon: true,
-        registrationLink: ''
+        registrationLink: 'https://forms.gle/q1hMgxnxiu64msWk8'
     },
     {
         id: 4,
@@ -92,7 +92,7 @@ const dataCard2 = [
         tag: '@Safalya26',
         isLive: false,
         comingSoon: true,
-        registrationLink: ''
+        registrationLink: 'https://forms.gle/q1hMgxnxiu64msWk8'
     },
     {
         id: 5,
@@ -103,7 +103,7 @@ const dataCard2 = [
         tag: '@Safalya26',
         isLive: false,
         comingSoon: true,
-        registrationLink: ''
+        registrationLink: 'https://forms.gle/q1hMgxnxiu64msWk8'
     },
     {
         id: 6,
@@ -114,7 +114,7 @@ const dataCard2 = [
         tag: '@Safalya26',
         isLive: false,
         comingSoon: true,
-        registrationLink: ''
+        registrationLink: 'https://forms.gle/q1hMgxnxiu64msWk8'
     },
     {
         id: 7,
@@ -125,7 +125,7 @@ const dataCard2 = [
         tag: '@Safalya26',
         isLive: false,
         comingSoon: true,
-        registrationLink: ''
+        registrationLink: 'https://forms.gle/q1hMgxnxiu64msWk8'
     },
     {
         id: 8,
@@ -136,7 +136,7 @@ const dataCard2 = [
         tag: '@Safalya26',
         isLive: false,
         comingSoon: true,
-        registrationLink: ''
+        registrationLink: 'https://forms.gle/q1hMgxnxiu64msWk8'
     },
     {
         id: 9,
@@ -147,7 +147,7 @@ const dataCard2 = [
         tag: '@Safalya26',
         isLive: false,
         comingSoon: true,
-        registrationLink: ''
+        registrationLink: 'https://forms.gle/q1hMgxnxiu64msWk8'
     },
     {
         id: 10,
@@ -158,7 +158,7 @@ const dataCard2 = [
         tag: '@Safalya26',
         isLive: false,
         comingSoon: true,
-        registrationLink: ''
+        registrationLink: 'https://forms.gle/q1hMgxnxiu64msWk8'
     },
     {
         id: 11,
@@ -169,7 +169,7 @@ const dataCard2 = [
         tag: '@Safalya26',
         isLive: false,
         comingSoon: true,
-        registrationLink: ''
+        registrationLink: 'https://forms.gle/q1hMgxnxiu64msWk8'
     },
     {
         id: 12,
@@ -180,7 +180,7 @@ const dataCard2 = [
         tag: '@Safalya26',
         isLive: false,
         comingSoon: true,
-        registrationLink: ''
+        registrationLink: 'https://forms.gle/q1hMgxnxiu64msWk8'
     },
     {
         id: 13,
@@ -191,7 +191,7 @@ const dataCard2 = [
         tag: '@Safalya26',
         isLive: false,
         comingSoon: true,
-        registrationLink: ''
+        registrationLink: 'https://forms.gle/q1hMgxnxiu64msWk8'
     },
     {
         id: 14,
@@ -202,7 +202,7 @@ const dataCard2 = [
         tag: '@Safalya26',
         isLive: false,
         comingSoon: true,
-        registrationLink: ''
+        registrationLink: 'https://forms.gle/q1hMgxnxiu64msWk8'
     }
     // {
     //     id: 15,
