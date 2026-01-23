@@ -37,12 +37,13 @@ function Notification({ message, link, onClose }) {
             const randomEvent = events[randomIndex];
             setCurrentRegistration({ event: randomEvent });
 
-            // Hide after 4 seconds, then immediately show next one
+            // Hide after 5 seconds
             timeoutId = setTimeout(() => {
                 setCurrentRegistration(null);
-                // Show next registration immediately after hiding
-                timeoutId = setTimeout(showRandomRegistration, 100);
-            }, 4000);
+                // Wait random time between 0 to 90 seconds (1.5 minutes) before showing next registration
+                const randomDelay = Math.floor(Math.random() * 90000);
+                timeoutId = setTimeout(showRandomRegistration, randomDelay);
+            }, 5000);
         };
 
         // Show first registration after initial animation (2s)
