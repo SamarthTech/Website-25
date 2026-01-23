@@ -30,6 +30,8 @@ import Project9 from '../components/project/Project9';
 
 import Safalya25 from '../components/eventhead/Safalya25';
 import dataSafalya25 from '../assets/fake-data/data-safalya25';
+import Safalya26 from '../components/eventhead/Safalya26';
+import dataSafalya26 from "../assets/fake-data/data-safalya26";
 
 import dataCard from '../assets/fake-data/data-card';
 
@@ -41,13 +43,14 @@ function Events(props) {
       <PageTitle title="Events" desc="Explore Our Exciting Events Here" />
 
             {/* Live Events */}
-            <Portfolio7/> 
-            <Project8 data={dataCard} />
+            {/* <Portfolio7/>  */}
             
-            {/* Safalya'25 */}
-            <Safalya25 />
-            <Project3 data={dataSafalya25} />
+            {/* Safalya'26 */}
+            <Safalya26 data={dataSafalya26} />
+            {/* <Project3 data={dataSafalya26} /> */}
+            {/* <Project8 data={dataCard} /> */}
             
+
             {/* Past Events */}
             <Portfolio6></Portfolio6>
             <ProjectPast data={dataOfPast} />
