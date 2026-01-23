@@ -203,18 +203,18 @@ const dataCard2 = [
         isLive: false,
         comingSoon: true,
         registrationLink: ''
-    },
-    {
-        id: 15,
-        img: img15,
-        title: 'Coming Soon',
-        avt: logo,
-        name: 'Team Samarth',
-        tag: '@Safalya26',
-        isLive: false,
-        comingSoon: true,
-        registrationLink: ''
     }
+    // {
+    //     id: 15,
+    //     img: img15,
+    //     title: 'Coming Soon',
+    //     avt: logo,
+    //     name: 'Team Samarth',
+    //     tag: '@Safalya26',
+    //     isLive: false,
+    //     comingSoon: true,
+    //     registrationLink: ''
+    // }
 ]
 
 export default dataCard2;
