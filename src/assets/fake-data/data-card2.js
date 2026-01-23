@@ -57,7 +57,7 @@ const dataCard2 = [
         avt: logo,
         name: 'Team Samarth',
         tag: '@Safalya26',
-        isLive: false,
+        isLive: true,
         comingSoon: true,
         registrationLink: 'https://forms.gle/q1hMgxnxiu64msWk8'
     },
@@ -68,7 +68,7 @@ const dataCard2 = [
         avt: logo,
         name: 'Team Samarth',
         tag: '@Safalya26',
-        isLive: false,
+        isLive: true,
         comingSoon: true,
         registrationLink: 'https://forms.gle/q1hMgxnxiu64msWk8'
     },
@@ -79,7 +79,7 @@ const dataCard2 = [
         avt: logo,
         name: 'Team Samarth',
         tag: '@Safalya26',
-        isLive: false,
+        isLive: true,
         comingSoon: true,
         registrationLink: 'https://forms.gle/q1hMgxnxiu64msWk8'
     },
@@ -90,7 +90,7 @@ const dataCard2 = [
         avt: logo,
         name: 'Team Samarth',
         tag: '@Safalya26',
-        isLive: false,
+        isLive: true,
         comingSoon: true,
         registrationLink: 'https://forms.gle/q1hMgxnxiu64msWk8'
     },
@@ -101,7 +101,7 @@ const dataCard2 = [
         avt: logo,
         name: 'Team Samarth',
         tag: '@Safalya26',
-        isLive: false,
+        isLive: true,
         comingSoon: true,
         registrationLink: 'https://forms.gle/q1hMgxnxiu64msWk8'
     },
@@ -112,7 +112,7 @@ const dataCard2 = [
         avt: logo,
         name: 'Team Samarth',
         tag: '@Safalya26',
-        isLive: false,
+        isLive: true,
         comingSoon: true,
         registrationLink: 'https://forms.gle/q1hMgxnxiu64msWk8'
     },
@@ -123,7 +123,7 @@ const dataCard2 = [
         avt: logo,
         name: 'Team Samarth',
         tag: '@Safalya26',
-        isLive: false,
+        isLive: true,
         comingSoon: true,
         registrationLink: 'https://forms.gle/q1hMgxnxiu64msWk8'
     },
@@ -134,7 +134,7 @@ const dataCard2 = [
         avt: logo,
         name: 'Team Samarth',
         tag: '@Safalya26',
-        isLive: false,
+        isLive: true,
         comingSoon: true,
         registrationLink: 'https://forms.gle/q1hMgxnxiu64msWk8'
     },
@@ -145,7 +145,7 @@ const dataCard2 = [
         avt: logo,
         name: 'Team Samarth',
         tag: '@Safalya26',
-        isLive: false,
+        isLive: true,
         comingSoon: true,
         registrationLink: 'https://forms.gle/q1hMgxnxiu64msWk8'
     },
@@ -156,7 +156,7 @@ const dataCard2 = [
         avt: logo,
         name: 'Team Samarth',
         tag: '@Safalya26',
-        isLive: false,
+        isLive: true,
         comingSoon: true,
         registrationLink: 'https://forms.gle/q1hMgxnxiu64msWk8'
     },
@@ -167,7 +167,7 @@ const dataCard2 = [
         avt: logo,
         name: 'Team Samarth',
         tag: '@Safalya26',
-        isLive: false,
+        isLive: true,
         comingSoon: true,
         registrationLink: 'https://forms.gle/q1hMgxnxiu64msWk8'
     },
@@ -178,7 +178,7 @@ const dataCard2 = [
         avt: logo,
         name: 'Team Samarth',
         tag: '@Safalya26',
-        isLive: false,
+        isLive: true,
         comingSoon: true,
         registrationLink: 'https://forms.gle/q1hMgxnxiu64msWk8'
     },
@@ -189,7 +189,7 @@ const dataCard2 = [
         avt: logo,
         name: 'Team Samarth',
         tag: '@Safalya26',
-        isLive: false,
+        isLive: true,
         comingSoon: true,
         registrationLink: 'https://forms.gle/q1hMgxnxiu64msWk8'
     },
@@ -200,7 +200,7 @@ const dataCard2 = [
         avt: logo,
         name: 'Team Samarth',
         tag: '@Safalya26',
-        isLive: false,
+        isLive: true,
         comingSoon: true,
         registrationLink: 'https://forms.gle/q1hMgxnxiu64msWk8'
     }
