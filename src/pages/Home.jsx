@@ -1,6 +1,5 @@
 import React from 'react';
 import dataCard from '../assets/fake-data/data-card';
-import dataCard2 from '../assets/fake-data/data-card2';
 
 import Banner2 from '../components/banner/Banner2';
 import Counter from '../components/counter/Counter';
@@ -19,8 +18,7 @@ function Home(props) {
 
     return (
         <div className='home-2 wrapper'>
-                 {/* <Banner2 data={dataCard1} /> */}
-                <Banner2 data={dataCard2} />
+                <Banner2 data={dataCard} />
 
                 <Speciality data={dataBox} />
 
