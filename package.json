@@ -12,6 +12,7 @@
     "@fortawesome/free-regular-svg-icons": "^6.4.0",
     "@fortawesome/free-solid-svg-icons": "^6.4.0",
     "@fortawesome/react-fontawesome": "^0.2.0",
+    "@vercel/analytics": "^1.6.1",
     "aos": "^2.3.4",
     "chart.js": "^3.9.1",
     "faker": "^5.5.3",
